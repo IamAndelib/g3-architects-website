@@ -241,6 +241,18 @@ main > section {
   filter: grayscale(100%);
 }
 
+/* footer style */
+footer {
+  max-width: 1440px;
+  text-align: center;
+  margin: 150px auto;
+}
+
+.copyright {
+  padding: 40px 0;
+  font-weight: 400;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .navbar,
@@ -271,6 +283,10 @@ main > section {
 
   #experience-badge {
     margin: 20px auto;
+  }
+
+  footer {
+    max-width: auto;
   }
 }
 
